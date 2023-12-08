@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Login Form</title>
 </head>
+
 <body>
-    <form>
+    <form id="loginForm">
         <div class="container">
             <div class="row-1">
                 <img src="bgimage.jpg" alt="bgimage">
                 <div class="welcome-box">
                     <h1>Welcome to the Website</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis asperiores sapiente vel dolore repudiandae, dicta placeat quisquam consequuntur odit! Repellat vel at, labore eaque eveniet a iure tenetur molestias harum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis asperiores sapiente vel
+                        dolore repudiandae, dicta placeat quisquam consequuntur odit! Repellat vel at, labore eaque
+                        eveniet a iure tenetur molestias harum?</p>
                 </div>
             </div>
             <div class="row-2">
@@ -35,5 +39,12 @@
             </div>
         </div>
     </form>
+    <div id="alert" class="alert alert-success alert-dismissible fade show" role="alert" style="display: none">
+        <strong class="message">Great!</strong> You have successfully logged in
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
