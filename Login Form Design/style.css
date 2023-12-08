@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(bgimage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 390px;
+    box-shadow: 0 24px 48px rgba(0,0,0,0.5);
+}
+.container .row-1{
+    width: 390px;
+    position: relative;
+}
+.container .row-1 img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.container .row-1 .welcome-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .row-1 .welcome-box h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-left: 30px;
+}
+.container .row-1 .welcome-box p{
+    color: #fff;
+    font-size: 0.55rem;
+    padding: 5px 80px 5px 30px;
+    text-align: justify;
+}
+.container .row-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 40px 30px;
+    row-gap: 6px;
+    background: #fff;
+}
+.container .row-2 h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #3baee0;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.container .row-2 .input-box{
+    width: 100%;
+    margin-bottom: 5px;
+    position: relative;
+}
+.container .row-2 .input-box .fa-solid{
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 0.8rem;
+}
+.container .row-2 .input-box input{
+    width: 100%;
+    padding: 8px 16px 8px 40px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, #045bbf, #3baee0);
+    color: #fff;
+}
+.container .row-2 .link-box{
+    width: 100%;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+    color: #3baee0;
+}
+.container .row-2 .link-box label{
+    display: flex;
+}
+.container .row-2 .link-box #check{
+    margin-right: 5px;
+}
+.container .row-2 .link-box a{
+    color: #3baee0;
+}
+.container .row-2 button{
+    background: #045bbf;
+    width: 150px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.container .row-2 button:hover{
+    background: #3baee0;
+    text-transform: uppercase;
+}
+
+
